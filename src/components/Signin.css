@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signin-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signin-box{
+    width: 380px;
+    background: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.signin-box h1{
+    margin-bottom: 20px;
+}
+
+.signin-box input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.signin-box input:focus{
+    border-color: royalblue;
+}
+
+.signin-box button{
+    width: 100%;
+    padding: 12px;
+    background: royalblue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signin-box button:hover{
+    background: #2456d3;
+}
+
+.signin-box p{
+    margin-top: 20px;
+}
+
+.signin-box p a{
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+}
+
+.signin-box p a:hover{
+    text-decoration: underline;
+}
