@@ -79,3 +79,37 @@ button:hover{
     color: #0056cc;
     text-decoration: underline;
 }
+
+
+@media (max-width: 768px) {
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .login-box{
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+        margin: 0;
+        padding: 30px 20px;
+    }
+
+    .login-box h1{
+        font-size: 28px;
+    }
+
+    input,
+    button{
+        font-size: 15px;
+        padding: 12px;
+    }
+
+    .login-box p{
+        font-size: 14px;
+    }
+}
